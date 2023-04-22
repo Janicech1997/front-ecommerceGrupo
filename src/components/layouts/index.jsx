@@ -13,6 +13,7 @@ const IndexLayout = ({ render }) => {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/listadeproductos">Productos</Nav.Link>
+            <Nav.Link href="/checkout">Checkout</Nav.Link>
             <Nav.Link href="/regiter">Registrarse</Nav.Link>
             <Nav.Link href="/login">Iniciar sesion</Nav.Link>
           </Nav>
