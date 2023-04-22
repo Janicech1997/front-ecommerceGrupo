@@ -10,6 +10,7 @@ import Profile from './components/Profile'
 import ThemeProvider from './context/ThemeContext';
 import UserProvider from './context/UserContext';
 import LoginProvider from './context/LoginContext';
+import Listadeproductos from './components/Listadeproductos';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: '/profile',
     element: <Profile />,
+  },
+  {
+    path: '/listadeproductos',
+    element: <Listadeproductos />,
   }
 
 ])
