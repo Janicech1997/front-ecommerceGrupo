@@ -17,6 +17,7 @@ const IndexLayout = ({ render }) => {
             <Nav.Link href="/profile">Perfil de usuario</Nav.Link>
 =======
             <Nav.Link href="/listadeproductos">Productos</Nav.Link>
+            <Nav.Link href="/checkout">Checkout</Nav.Link>
             <Nav.Link href="/regiter">Registrarse</Nav.Link>
 >>>>>>> 29a684b0d1c7efda278c0251a77e6e2677b05011
             <Nav.Link href="/login">Iniciar sesion</Nav.Link>

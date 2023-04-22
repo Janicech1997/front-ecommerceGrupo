@@ -11,6 +11,7 @@ import ThemeProvider from './context/ThemeContext';
 import UserProvider from './context/UserContext';
 import LoginProvider from './context/LoginContext';
 import Listadeproductos from './components/Listadeproductos';
+import Checkout from './components/checkout';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,11 @@ const router = createBrowserRouter([
   {
     path: '/listadeproductos',
     element: <Listadeproductos />,
+  }
+  ,
+  {
+    path: '/checkout',
+    element: <Checkout />,
   }
 
 ])
