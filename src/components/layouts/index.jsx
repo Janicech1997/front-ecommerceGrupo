@@ -12,7 +12,8 @@ const IndexLayout = ({ render }) => {
           <Navbar.Brand href="#home">Arlequin Shop</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/regiter">Registrarse</Nav.Link>
+            <Nav.Link href="/register">Registrarse</Nav.Link>
+            <Nav.Link href="/profile">Perfil de usuario</Nav.Link>
             <Nav.Link href="/login">Iniciar sesion</Nav.Link>
           </Nav>
           <Form>
